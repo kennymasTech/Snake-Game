@@ -4,7 +4,23 @@
 }
 
 #gameBoard {
-    border: 3px solid black;
+    border: 7px solid black;
+}
+
+#rstScore {
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    margin: 5px;
+}
+
+#PauseBtn {
+    cursor: pointer;
+    font-size: 25px;
+    width: 100px;
+    height: 50px;
+    border: 4px solid green;
+    border-radius: 10px;
 }
 
 #scoreText {
@@ -14,9 +30,61 @@
 
 #resetBtn {
     cursor: pointer;
-    font-size: 30px;
+    font-size: 25px;
     width: 100px;
     height: 50px;
-    border: 4px solid;
+    border: 4px solid crimson;
     border-radius: 10px;
+}
+
+#upBtn {
+    width: 100px;
+    height: 60px;
+    font-size: 25px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 4px solid coral;
+    background-color: black;
+    color: wheat;
+    
+}
+
+#sideBtn {
+    display: flex;
+    justify-content: center;
+    column-gap: 50px;
+    margin: 10px;
+}
+
+#leftBtn {
+    width: 100px;
+    height: 60px;
+    font-size: 25px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 4px solid coral;
+    background-color: black;
+    color: wheat;
+}
+
+#rightBtn {
+    width: 100px;
+    height: 60px;
+    font-size: 25px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 4px solid coral;
+    background-color: black;
+    color: wheat;
+}
+
+#downBtn {
+    width: 100px;
+    height: 60px;
+    font-size: 25px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 4px solid coral;
+    background-color: black;
+    color: wheat;
 }

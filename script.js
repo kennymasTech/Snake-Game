@@ -113,7 +113,7 @@ function changeDirection(event) {
   const goingUp = yVelocity == -unitSize;
   const goingDown = yVelocity == unitSize;
   const goingLeft = xVelocity == unitSize;
-  const goingRight = xVelocity == -unitSize;
+  const goingRight = xVelocity == unitSize;
 
   switch (true) {
     case keyPressed === LEFT && !goingRight:
@@ -150,7 +150,7 @@ function checkGameOver() {
   }
 
   for (let i = 1; i < snake.lenght; i++) {
-    if (snake[i].x === snake[0].x && snake[i].y === snake[0].y) {
+    if (snake[1].x === snake[0].x && snake[1].y === snake[0].y) {
       running = false;
     }
   }
@@ -179,3 +179,5 @@ function resetGame() {
 }
 
     
+// let x = Math.ceil(5.65)
+// console.log(x);
