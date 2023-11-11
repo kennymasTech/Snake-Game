@@ -67,7 +67,7 @@ function createFood() {
 
 function drawFood() {
   context.fillStyle = foodColor
-  context.fillRect(foodX, foodY, unitSize, unitSize);
+  context.fillRect(foodX, foodY, unitSize, unitSize)
 }
 
 function gameStart() {
