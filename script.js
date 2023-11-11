@@ -114,7 +114,7 @@ function changeDirection(event) {
   const goingUp = yVelocity == -unitSize
   const goingDown = yVelocity == unitSize
   const goingLeft = xVelocity == unitSize
-  const goingRight = xVelocity == unitSize;
+  const goingRight = xVelocity == unitSize
 
   switch (true) {
     case keyPressed === LEFT && !goingRight:
