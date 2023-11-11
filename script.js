@@ -20,7 +20,7 @@ let foodY
 let snake = [
   { x: unitSize * 4, y: 0 }
   { x: unitSize * 3, y: 0 }
-  { x: unitSize * 2, y: 0 }
+  { x: unitSize * 2, y: 0 },
   { x: unitSize, y: 0 },
   { x: 0, y: 0 },
 ];
