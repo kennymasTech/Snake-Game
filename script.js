@@ -16,9 +16,9 @@ let xVelocity = unitSize
 let yVelocity = 0
 let score = 0
 let foodX
-let foodY;
+let foodY
 let snake = [
-  { x: unitSize * 4, y: 0 },
+  { x: unitSize * 4, y: 0 }
   { x: unitSize * 3, y: 0 },
   { x: unitSize * 2, y: 0 },
   { x: unitSize, y: 0 },
