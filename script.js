@@ -48,7 +48,7 @@ function nextTick() {
 }
 
 function clearBoard() {
-  context.fillStyle = boardBackground;
+  context.fillStyle = boardBackground
   context.fillRect(0, 0, gameWidth, gameHeight);
 }
 
