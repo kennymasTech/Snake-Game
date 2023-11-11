@@ -66,7 +66,7 @@ function createFood() {
 }
 
 function drawFood() {
-  context.fillStyle = foodColor;
+  context.fillStyle = foodColor
   context.fillRect(foodX, foodY, unitSize, unitSize);
 }
 
