@@ -98,7 +98,7 @@ function drawSnake() {
   context.strokeStyle = snakeBorder
   snake.forEach((snakePart) => {
     context.fillRect(snakePart.x, snakePart.y, unitSize, unitSize)
-    context.strokeRect(snakePart.x, snakePart.y, unitSize, unitSize);
+    context.strokeRect(snakePart.x, snakePart.y, unitSize, unitSize)
   });
 }
 
