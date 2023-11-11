@@ -79,7 +79,7 @@ function gameStart() {
 }
 
 function moveSnake() {
-  const head = { x: snake[0].x + xVelocity, y: snake[0].y + yVelocity };
+  const head = { x: snake[0].x + xVelocity, y: snake[0].y + yVelocity }
   snake.unshift(head);
 
   // if food is eaten
