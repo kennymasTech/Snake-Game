@@ -12,7 +12,7 @@ const snakeBorder = "black"
 const foodColor = "red"
 const unitSize = 20
 let running = false
-let xVelocity = unitSize;
+let xVelocity = unitSize
 let yVelocity = 0;
 let score = 0;
 let foodX;
