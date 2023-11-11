@@ -60,7 +60,7 @@ function createFood() {
     return randNumb;
   }
 
-  foodX = randomFood(0, gameWidth - unitSize);
+  foodX = randomFood(0, gameWidth - unitSize)
   foodY = randomFood(0, gameWidth - unitSize);
   //console.log(foodX);
 }
