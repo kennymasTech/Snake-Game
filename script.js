@@ -155,7 +155,7 @@ function checkGameOver() {
       running = false;
     }
   }
-}
+};
 
 function displayGameOver() {
   context.font = "50px MV boli";
