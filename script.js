@@ -63,7 +63,7 @@ function createFood() {
   foodX = randomFood(0, gameWidth - unitSize)
   foodY = randomFood(0, gameWidth - unitSize)
   //console.log(foodX);
-}
+};
 
 function drawFood() {
   context.fillStyle = foodColor
