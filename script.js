@@ -99,7 +99,7 @@ function drawSnake() {
   snake.forEach((snakePart) => {
     context.fillRect(snakePart.x, snakePart.y, unitSize, unitSize)
     context.strokeRect(snakePart.x, snakePart.y, unitSize, unitSize)
-  })
+  });
 };
 
 function changeDirection(event) {
