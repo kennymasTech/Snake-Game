@@ -106,7 +106,7 @@ function changeDirection(event) {
   const keyPressed = event.keyCode;
   // console.log(keyPressed);
 
-  const LEFT = 37
+  const LEFT = 37;
   const UP = 38;
   const RIGHT = 39;
   const DOWN = 40;
