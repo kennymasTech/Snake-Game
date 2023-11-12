@@ -111,7 +111,7 @@ function changeDirection(event) {
   const RIGHT = 39;
   const DOWN = 40;
 
-  const goingUp = yVelocity == -unitSize
+  const goingUp = yVelocity == -unitSize;
   const goingDown = yVelocity == unitSize;
   const goingLeft = xVelocity == unitSize;
   const goingRight = xVelocity == unitSize;
