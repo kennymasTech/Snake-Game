@@ -133,7 +133,7 @@ function changeDirection(event) {
       xVelocity = 0;
       yVelocity = unitSize;
       break;
-  }
+  };
 };
 
 function checkGameOver() {
