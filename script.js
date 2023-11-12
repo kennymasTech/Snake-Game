@@ -90,7 +90,7 @@ function moveSnake() {
     createFood();
   } else {
     snake.pop();
-  }
+  };
 };
 
 function drawSnake() {
