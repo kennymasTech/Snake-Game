@@ -177,7 +177,7 @@ function resetGame() {
       ];
 
       gameStart()
-}
+};
 
     
 // let x = Math.ceil(5.65)
