@@ -153,7 +153,7 @@ function checkGameOver() {
   for (let i = 1; i < snake.lenght; i++) {
     if (snake[1].x === snake[0].x && snake[1].y === snake[0].y) {
       running = false;
-    }
+    };
   };
 };
 
