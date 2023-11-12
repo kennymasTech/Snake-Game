@@ -100,7 +100,7 @@ function drawSnake() {
     context.fillRect(snakePart.x, snakePart.y, unitSize, unitSize)
     context.strokeRect(snakePart.x, snakePart.y, unitSize, unitSize)
   })
-}
+};
 
 function changeDirection(event) {
   const keyPressed = event.keyCode;
