@@ -91,7 +91,7 @@ function moveSnake() {
   } else {
     snake.pop();
   }
-}
+};
 
 function drawSnake() {
   context.fillStyle = snakeColor;
