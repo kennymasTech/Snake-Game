@@ -154,7 +154,7 @@ function checkGameOver() {
     if (snake[1].x === snake[0].x && snake[1].y === snake[0].y) {
       running = false;
     }
-  }
+  };
 };
 
 function displayGameOver() {
