@@ -76,7 +76,7 @@ function gameStart() {
   createFood();
   drawFood();
   nextTick();
-}
+};
 
 function moveSnake() {
   const head = { x: snake[0].x + xVelocity, y: snake[0].y + yVelocity };
