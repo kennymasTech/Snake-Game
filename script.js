@@ -162,7 +162,7 @@ function displayGameOver() {
   context.textAlign = "center";
   context.fillStyle = "brown";
   context.fillText(`GAME OVER`, gameWidth / 2, gameHeight / 2);
-}
+};
 
 function resetGame() {
     score = 0;
