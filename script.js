@@ -161,7 +161,7 @@ function displayGameOver() {
   context.font = "50px MV boli"
   context.textAlign = "center"
   context.fillStyle = "brown"
-  context.fillText(`GAME OVER`, gameWidth / 2, gameHeight / 2)
+  context.fillText(`GAME OVER`, gameWidth / 2, gameHeight / 2);
 }
 
 function resetGame() {
